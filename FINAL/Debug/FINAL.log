@@ -1,0 +1,26 @@
+﻿Build started 12/10/2014 3:16:12 PM.
+     1>Project "c:\Users\hitesh\documents\visual studio 2013\Projects\FINAL\FINAL\FINAL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cellclass.cpp FCell.cpp Main.cpp NCell.cpp SCell.cpp
+         Main.cpp
+     1>c:\users\hitesh\documents\visual studio 2013\projects\final\final\main.cpp(61): warning C4930: 'Cell cellobj(void)': prototyped function not called (was a variable definition intended?)
+         Cellclass.cpp
+         Generating Code...
+         Compiling...
+         SCell.cpp
+         NCell.cpp
+         FCell.cpp
+     1>c:\users\hitesh\documents\visual studio 2013\projects\final\final\fcell.cpp(118): warning C4101: 'mean' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hitesh\documents\visual studio 2013\Projects\FINAL\Debug\FINAL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\hitesh\documents\visual studio 2013\Projects\FINAL\Debug\FINAL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hitesh\documents\visual studio 2013\Projects\FINAL\Debug\FINAL.lib" /MACHINE:X86 Debug\Cellclass.obj
+         Debug\FCell.obj
+         Debug\Main.obj
+         Debug\NCell.obj
+         Debug\SCell.obj
+         FINAL.vcxproj -> c:\users\hitesh\documents\visual studio 2013\Projects\FINAL\Debug\FINAL.exe
+     1>Done Building Project "c:\Users\hitesh\documents\visual studio 2013\Projects\FINAL\FINAL\FINAL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.48
